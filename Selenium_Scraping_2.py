@@ -104,3 +104,5 @@ print("Data has been saved to scraped_jobs.csv")
 
 # Keep the browser open
 print("Scraping complete. Browser will remain open.")
+
+#ptinydyssdf
