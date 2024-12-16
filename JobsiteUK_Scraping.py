@@ -35,6 +35,18 @@ search = driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div/div/div
 search.click()
 time.sleep(3)
 
+# Distance selection
+miles_box = driver.find_element(by=By.CLASS_NAME,value="sbr-aprivm")
+miles_box.click()
+
+miles = driver.find_element(by=By.CLASS_NAME,value="sbr-zdrrq2")
+
+miles_distance = miles.find_elements(by=By.TAG_NAME,value="button")
+for mile in miles_distance:
+    print(mile.text)
+    if mile.text == '30 miles':
+        mile.click()
+
 # Initialize lists for data
 job_titles = []
 company_name = []
