@@ -46,3 +46,20 @@ This project is a comprehensive **web scraping application** built using **Pytho
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2. Install dependencies:
+   ```pip install selenium pandas```
+
+3. Download ChromeDriver and update the script with the path to the driver executable.
+
+## Usage
+1. Update the script with your LinkedIn login credentials.
+2. Specify the job title and location you want to search for in the script.
+3. Run the script:
+   In Case if you want to provide Number of Pages to be Scrapped
+   ``` python JobsiteUK_Scraping.py ```
+
+   In case if you want to Scrape completely
+   ``` python JobsiteUK_Scraping2.py ```
+   
+5. The results will be saved as a CSV file in the same directory as the script.
