@@ -29,10 +29,9 @@ This project is a comprehensive **Web Scraping Script** built using **Python** a
 ## How It Works
 
 1. **Setup WebDriver**: The Selenium WebDriver is configured to control a Chrome browser instance.
-2. **Login Automation**: The tool logs in to the job portal with user-provided credentials.
-3. **Dynamic Job Search**: Users specify job roles and locations to target specific opportunities.
-4. **Data Scraping**: The script navigates search results, clicks on individual job links, and extracts details from job postings.
-5. **Data Export**: The collected data is organized into a DataFrame and exported as a CSV file.
+2. **Dynamic Job Search**: Users specify job roles and locations to target specific opportunities.
+3. **Data Scraping**: The script navigates search results, clicks on individual job links, and extracts details from job postings.
+4. **Data Export**: The collected data is organized into a DataFrame and exported as a CSV file.
 
 ## Requirements
 
@@ -67,3 +66,7 @@ This project is a comprehensive **Web Scraping Script** built using **Python** a
    ```
       
 5. The results will be saved as a CSV file in the same directory as the script.
+
+## Note
+There are 2 different scripts present in the Repository. JobsiteUK_Scraping.py will scrape on the basis of number of pages you will provide whereas the other script JobsiteUK_Scraping.py will scrape completely. 
+Scripts to run both of those have been provided separately above.
