@@ -1,6 +1,6 @@
 # Web Scraping Project: Job Data Collection Using Python and Selenium
 
-This project is a comprehensive **web Scraping Script** built using **Python** and **Selenium** to extract job listings from a popular job portal in the UK. The tool automates the process of gathering job-related information, providing a robust solution for data collection and analysis.
+This project is a comprehensive **Web Scraping Script** built using **Python** and **Selenium** to extract job listings from a popular job portal in the UK. The tool automates the process of gathering job-related information, providing a robust solution for data collection and analysis.
 
 ## Features
 
