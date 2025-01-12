@@ -1,6 +1,6 @@
 # Web Scraping Project: Job Data Collection Using Python and Selenium
 
-This project is a comprehensive web scraping application built using Python and Selenium to extract job listings from a popular job portal in the UK. The tool automates the process of gathering job-related information, providing a robust solution for data collection and analysis.
+This project is a comprehensive **web scraping application** built using **Python** and **Selenium** to extract job listings from a popular job portal in the UK. The tool automates the process of gathering job-related information, providing a robust solution for data collection and analysis.
 
 ## Features
 
@@ -26,11 +26,23 @@ This project is a comprehensive web scraping application built using Python and 
 - **Personal Job Search**: Streamline your search for specific roles and locations by collecting data in bulk.
 - **HR & Recruitment**: Monitor competitor job postings or industry hiring trends.
 
----
+## How It Works
 
-3. Save the file and commit your changes. Once committed, GitHub will automatically render the Markdown correctly.
+1. **Setup WebDriver**: The Selenium WebDriver is configured to control a Chrome browser instance.
+2. **Login Automation**: The tool logs in to the job portal with user-provided credentials.
+3. **Dynamic Job Search**: Users specify job roles and locations to target specific opportunities.
+4. **Data Scraping**: The script navigates search results, clicks on individual job links, and extracts details from job postings.
+5. **Data Export**: The collected data is organized into a DataFrame and exported as a CSV file.
 
-### Preview the Changes
-Click on the **"Preview"** tab in the GitHub file editor to confirm the formatting is rendered properly before committing.
+## Requirements
 
-Let me know if you need further help!
+- Python 3.x
+- Selenium
+- ChromeDriver (compatible with your Chrome browser version)
+- Pandas
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
