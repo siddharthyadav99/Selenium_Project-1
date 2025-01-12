@@ -68,5 +68,5 @@ This project is a comprehensive **Web Scraping Script** built using **Python** a
 5. The results will be saved as a CSV file in the same directory as the script.
 
 ## Note
-There are 2 different scripts present in the Repository. JobsiteUK_Scraping.py will scrape on the basis of number of pages you will provide whereas the other script JobsiteUK_Scraping.py will scrape completely. 
+There are 2 different scripts present in the Repository. JobsiteUK_Scraping.py will scrape on the basis of number of pages you will provide whereas the other script JobsiteUK_Scraping2.py will scrape completely. 
 Scripts to run both of those have been provided separately above.
